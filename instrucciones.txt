@@ -1,0 +1,1 @@
+Para su uso como pagina principal ir a personaliza y administra google chrome(los 3 puntitos a la derecha)/configuracion/paginas que se abren al iniciar el navegador / selecciona abrir una pagina especifica o conjunto de paginas /añadir nueva pagina y ahi copiar la ruta del archivo home.html

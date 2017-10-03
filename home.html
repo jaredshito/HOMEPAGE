@@ -9,13 +9,20 @@
 	<link rel="stylesheet" type="text/css" href="home.css" >
 </head>
 <body>
-	
-		<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" class="active" href="#">DEBEK |</a>
-	    </div>
-	    <ul class="nav navbar-nav">
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+		      <span class="sr-only">Desplegar navegación</span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		    </button>
+    <a class="navbar-brand" href="#">Debek</a>
+			
+		</div>
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
 	      
 	      <li class="dropdown">
 	        <a class="dropdown-toggle" data-toggle="dropdown" href="#">SOCIAL
@@ -61,7 +68,9 @@
 	      </li>
 
 	    </ul>
-	  </div>
+		</div>
+
+
 	</nav>
 
 
